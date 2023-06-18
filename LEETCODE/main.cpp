@@ -5,6 +5,7 @@ int main()
 	int a;
 	a++;
 	a--;
+	a++;
 	cin >> a;
 	cout<<"hello"<<" "<<a;
 	return 0;
