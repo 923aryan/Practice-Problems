@@ -18,13 +18,24 @@ vector<int> twoSum(vector<int>&nums, int target)
 	return v;
 }
 
+// //
+//   9,9,9,9,9,9,9
+//   0 0 0 9,9,9,9
+
+// 1 0 0 0 9 9 9 8
+
+
+  9 4 6 5
+  0 9 4 2
+
+1 0 4 0 7
+
+
+
 // for testing
 int main()
 {
-	vector <int> nums = {3,2,4};
-	int target = 6;
-	vector<int>temp = twoSum(nums, target);
-	for(auto e : temp)
-		cout<<e<<" ";
+	
+		cout<<18/10<<" ";
 	return 0;
 }
