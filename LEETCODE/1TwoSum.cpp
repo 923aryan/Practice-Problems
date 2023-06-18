@@ -17,6 +17,8 @@ vector<int> twoSum(vector<int>&nums, int target)
 	}
 	return v;
 }
+
+// for testing
 int main()
 {
 	vector <int> nums = {3,2,4};
