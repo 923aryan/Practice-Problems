@@ -98,4 +98,3 @@ public:
 		// cout<<e<<" ";
 		return f;
     }
-};

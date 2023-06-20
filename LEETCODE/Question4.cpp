@@ -7,7 +7,7 @@ double findMedianSortedArrays(vector<float>& nums1, vector<float>& nums2)
 	merge(nums1.begin(), nums1.end(), nums2.begin(), nums2.end(), nums3.begin());
 	sort(nums3.begin(), nums3.end());
 	if(nums3.size() % 2 == 1)
-	{c
+	{
 		return nums3[nums3.size()/2];
 	}
 	else
